@@ -80,3 +80,29 @@ function clickCandy(element) {
   element.style.pointerEvents = 'none';
 }
 
+function beGoneScreen() {
+  document.getElementById("deleteScreen").style.background = "black";
+  document.getElementById("nuked").src = "";
+  document.getElementById("nuked2").src = "";
+  document.getElementById("nuked3").src = "";
+  document.getElementById("nuked4").src = "";
+  document.getElementById("nuked5").src = "";
+  document.getElementById("nuked6").src = "";
+
+  setTimeout(alertMessage, 2000)
+}
+
+function alertMessage() {
+  alert("Happy Christmas!!!")
+}
+
+if (getCookie('candyCount') == 6) {
+  document.getElementById("nuked").src = "../Kaboom.gif";
+  document.getElementById("nuked2").src = "../Kaboom.gif";
+  document.getElementById("nuked3").src = "../Kaboom.gif";
+  document.getElementById("nuked4").src = "../Kaboom.gif";
+  document.getElementById("nuked5").src = "../Kaboom.gif";
+  document.getElementById("nuked6").src = "../Kaboom.gif";
+
+  setTimeout(beGoneScreen, 5000)
+}
