@@ -1,4 +1,4 @@
-Dear Windows users, install python beforehand
+Dear Windows users, install python beforehand with this method
 
 https://www.python.org/downloads/
 
@@ -15,3 +15,7 @@ PASTE THIS INTO YOUR BROWSER:
 http://localhost:8000/index.html
 
 SHIFT + CONTROL + R to refresh after changes in VS code
+
+__________________________________________
+Live server via VS code instead also works
+^^^^
